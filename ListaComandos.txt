@@ -1,0 +1,18 @@
+    1  pwd
+    2  dir
+    3  cd Documents/
+    5  mkdir Curso-Git
+    6  cd Curso-Git/
+   10  clear
+   11  git init --initial-branch=main
+   12  git config user.name "Ermerson Silva"
+   13  git config user.email "ermerson.gomes@academico.ifrn.edu.br"
+   15  git config --list --local
+   17  git status
+   18  git add Autor_Commit.txt
+   19  git status
+   20  git commit -m "Autor_Commit.txt"
+   21  git status
+   22  git remote add origin https://github.com/ErmersonSilva1563/-curso-git-embarcatech.git
+   25  git push -u origin main
+
